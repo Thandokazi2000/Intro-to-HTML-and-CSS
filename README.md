@@ -8,4 +8,4 @@ CSS
 The Cascading Style Sheet allows you to decorating the foundational elements of a site that you built using HTML and make your content more visually appealing.It provides you with different colors, fonts, and sizes. It also allows you to add more cool animations and interactions to make it more attractive.
 
 JavaScripts
-Javascripts adds interactivity and dynamics behaviors to websites.
+Javascripts adds interactivity and dynamics behaviors to websites. It can be fragile for instance if there is an error on your code or it does not understand the code it will refuse to run the code.
