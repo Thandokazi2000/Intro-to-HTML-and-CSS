@@ -22,7 +22,7 @@ There are four HTML elements related to this , two for bold and two for italic.
 For italics in HTML we use the, "<i>" element to apply visual italics and the "<em>" element to add emphasis.They may loook exactly the same visually, but they serve different purposes.
 We have two elememts to emphasize or make something bold in HTML.
 The first one is the "<strong></strong>" element, which is is used to show importance seriousness, or urgency.
-on the other hand, "<b>" element is is more generic and neutral.
+on the other hand, "<b></b>" element is is more generic and neutral.
 It allows you to make something bold visually, its does not carry any specific meaning or any alternative voice or mood.
 
 HTML Lists
