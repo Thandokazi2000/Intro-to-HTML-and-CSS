@@ -16,13 +16,15 @@ It uses tags, which are enclosed by the angle brackects, to mark different eleme
 HTML Headlines
 Web pages usually contain various titles, headlines, and subheadings. The HTML elements used for marking up headlines come in six different types:h1,h2,h,h4,h5, and h6.
 The headlines elements are used to to divide the content into smaller, more digestible chunks and that make it easy to understand the structure of the page.
+
 HTML Bold and Italics
 There are four HTML elements related to this , two for bold and two for italic.
 For italics in HTML we use the",<i>" element to apply visual italics and the "<em>" element to add emphasis.They may loook exactly the same visually, but they serve different purposes.
 We have two elememts to emphasize or make something bold in HTML.
-The first one is the "<strong>" element, which is is used to show importance seriousness, or urgency.
+The first one is the <strong> element, which is is used to show importance seriousness, or urgency.
 on the other hand, "<b>" element is is more generic and neutral.
 It allows you to make something bold visually, its does not carry any specific meaning or any alternative voice or mood.
+
 HTML Lists
 There are three types of lists in HTML: unordered lists, ordered list, and definition lists.
 The most commonly used listing type is the unordered lists.
@@ -44,6 +46,6 @@ Date  and Time Inputs
 For date and time HTML uses a single element called <time>. This element can be used to mark anything that specifies a time of day, or a duration.
 It consists of an opening tag (<time>) and a closing tag (</time>).
 For example <time>May 8th</time> or <time>May 8th 2025</time>
+The datetime attribute allows us to specify the date or time in a format that computers can understand.It is written like this: <time datetime="2025-05-08">May 8, 2025</time>.
 
-The datetime attributen allows us to specify the date or time in a format that computers can understand.It is written like this: <time datetime="2025-05-08">May 8, 2025</time>.
- 
+ HTML Code
