@@ -59,9 +59,19 @@ Superscripts are characters that are set above the normal baseline of text.
 
 <h3>HTML Capabilities</h3>
 
+<h4>Troubleshooting and Debugging HTML Code</h4>
+
 <h4>HTML Attributes</h4>
 Class attribute is the most commonly used and it allows us to assign a reusable name to any element, which can then be styled using CSS for all elements sharing that class.
-There is also an ID attribute which is similar to class attribute, but we can only use unique names once on an entire HTML page.They are used to target CSS.They are also useful when addressing specific elements in Javascript or targeted links. 
+There is also an ID attribute which is similar to class attribute, but we can only use unique names once on an entire HTML page.They are used to target CSS.They are also useful when addressing specific elements in Javascript or targeted links.
+
+ARIA roles
+ARIA Roles are like extra attribute that we can add to HTML elements to make them more meaningful and help browsers understand what they represent. 
+ARIA Roles come into play when we want to provide essential information to assistive technologies like screen readers, braille displays, and magnifiers to  ensure a website is fully accessible.
+
+
+
+
 
 
 
