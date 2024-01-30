@@ -12,22 +12,17 @@ Javascripts adds interactivity and dynamics behaviors to websites. It can be fra
 HTML Text Formatting
 
 HTML Paragraphs
-It uses tags, which are enclosed by the angle brackects, to mark different elements. Tags come in pairs, an opening tags and closing tags. For example the opening tag for a paragraph is <p> and the closing tag is </p>.
-Tags work together to define elements, Some elements like paragraphs reqiure both an opening and a closing tag, while some do not.
-
+It uses tags, which are enclosed by the angle brackects, to mark different elements. Tags come in pairs, an opening tags and closing tags. For example the opening tag for a paragraph is "<p>" and the closing tag is </p>.Tags work together to define elements, Some elements like paragraphs reqiure both an opening and a closing tag, while some do not.
 HTML Headlines
 Web pages usually contain various titles, headlines, and subheadings. The HTML elements used for marking up headlines come in six different types:h1,h2,h,h4,h5, and h6.
 The headlines elements are used to to divide the content into smaller, more digestible chunks and that make it easy to understand the structure of the page.
-
 HTML Bold and Italics
 There are four HTML elements related to this , two for bold and two for italic.
 For italics in HTML we use the",<i>" element to apply visual italics and the "<em>" element to add emphasis.They may loook exactly the same visually, but they serve different purposes.
 We have two elememts to emphasize or make something bold in HTML.
-
 The first one is the "<strong>" element, which is is used to show importance seriousness, or urgency.
 on the other hand, "<b>" element is is more generic and neutral.
 It allows you to make something bold visually, its does not carry any specific meaning or any alternative voice or mood.
-
 HTML Lists
 There are three types of lists in HTML: unordered lists, ordered list, and definition lists.
 The most commonly used listing type is the unordered lists.
