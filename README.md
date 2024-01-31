@@ -60,6 +60,9 @@ Superscripts are characters that are set above the normal baseline of text.
 <h3>HTML Capabilities</h3>
 
 <h4>Troubleshooting and Debugging HTML Code</h4>
+For troubleshooting and Debugging we open the developer tools by right-clicking to see the error.
+We can use the HTML inspector in the developer tools to debug mistakes.
+
 
 <h4>HTML Attributes</h4>
 Class attribute is the most commonly used and it allows us to assign a reusable name to any element, which can then be styled using CSS for all elements sharing that class.
