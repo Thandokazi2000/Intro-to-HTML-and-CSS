@@ -44,9 +44,12 @@ The block quote element is used to distinguish the quote from the surrounding te
 To make things easier, you can use the <code4>&ltq&gt</code4> element in HTML, which stands for quote and the browser will automatically provide the appropriate quote marks for you.
 Date  and Time Inputs
 For date and time HTML uses a single element called <code4>&lttime&gt</code4>. This element can be used to mark anything that specifies a time of day, or a duration.
-It consists of an opening tag <code4>&ltimee&gt</code4> and a closing tag <code4>&lttime&gt</code4>.
+It consists of an opening tag  and a closing tag <code4>&lttime&gt</code4>.
 For example "<time>May 8th</time>" or "<time>May 8th 2025</time>"
-The datetime attribute allows us to specify the date or time in a format that computers can understand.It is written like this: "<time datetime="2025-05-08">May 8, 2025</time>".
+The datetime attribute allows us to specify the date or time in a format that computers can understand.It is written like this: 
+```
+"<time datetime="2025-05-08">May 8, 2025</time>".
+```
 
 <h4>HTML Code, pre, br </h4>
 Pre and code elements are 
