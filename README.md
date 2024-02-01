@@ -19,10 +19,10 @@ The headlines elements are used to to divide the content into smaller, more dige
 
 <h4>HTML Bold and Italics</h4>
 There are four HTML elements related to this , two for bold and two for italic.
-For italics in HTML we use the, <code4>&lti&gt</code4> element to apply visual italics and the "<em></em>" element to add emphasis.They may loook exactly the same visually, but they serve different purposes.
+For italics in HTML we use the, <code4>&lti&gt</code4> element to apply visual italics and the <code4>&ltem&gt</code4> element to add emphasis.They may loook exactly the same visually, but they serve different purposes.
 We have two elememts to emphasize or make something bold in HTML.
-The first one is the "<strong></strong>" element, which is is used to show importance seriousness, or urgency.
-on the other hand, "<b></b>" element is is more generic and neutral.
+The first one is the <code4>&ltstrong&gt</code4> element, which is is used to show importance seriousness, or urgency.
+on the other hand, <code4>&ltb&gt</code4> element is is more generic and neutral.
 It allows you to make something bold visually, its does not carry any specific meaning or any alternative voice or mood.
 
 <h4>HTML Lists</h4>
