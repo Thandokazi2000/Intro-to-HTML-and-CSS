@@ -19,7 +19,7 @@ The headlines elements are used to to divide the content into smaller, more dige
 
 <h4>HTML Bold and Italics</h4>
 There are four HTML elements related to this , two for bold and two for italic.
-For italics in HTML we use the, <code4>&lti&gt</code4> element to apply visual italics and the <code4>&ltem&gt</code4> element to add emphasis.They may loook exactly the same visually, but they serve different purposes.
+For italics in HTML we use the, <code>&lti&gt</code> element to apply visual italics and the <code4>&ltem&gt</code4> element to add emphasis.They may loook exactly the same visually, but they serve different purposes.
 We have two elememts to emphasize or make something bold in HTML.
 The first one is the <code4>&ltstrong&gt</code4> element, which is is used to show importance seriousness, or urgency.
 on the other hand, <code4>&ltb&gt</code4> element is is more generic and neutral.
@@ -28,23 +28,23 @@ It allows you to make something bold visually, its does not carry any specific m
 <h4>HTML Lists</h4>
 There are three types of lists in HTML: unordered lists, ordered list, and definition lists.
 The most commonly used listing type is the unordered lists.
-Each item in the list is enclosed in a "</li>" element, which represent a list item.
-For unordered list all items are wrapped in a "<ul></ul>" element.
+Each item in the list is enclosed in a <code4>&ltli&gt</code4> element, which represent a list item.
+For unordered list all items are wrapped in a <code4>&ltul&gt</code4> element.
 It makes  your code more readable, indent the list by adding some spaces or tabs before each one.But this indentation does not affect how the webpage looks.
-To display the list with numbered steps and to show the order clearly we use the ordered list."<ol></ol>" element is used to wrap the list items instead of using "<ul></ul>" element.
+To display the list with numbered steps and to show the order clearly we use the ordered list.<code4>&ltol&gt</code4> element is used to wrap the list items instead of using <code4>&ltul&gt</code4> element.
 These listing types are quite similar except for the wrapping element they use.
 
 There is also  Definition lists which is used when creating a list that resembles a key-value pair in computer science. Instead of just items, it allows you to have terms and their corresponding descriptions.
-The term or key is enclosed in a "<dt>" tag, which stands for definition term and the description or value is enclosed in a <dd> tag, which stands for difinition description.
-You can have many description for each term by using multiple "<dd>" tags and the entire list is wrapped in a "<dl>" tag, representing the definition list.
+The term or key is enclosed in a <code4>&ltdt&gt</code4> tag, which stands for definition term and the description or value is enclosed in a <code4>&ltdd&gt</code4> tag, which stands for difinition description.
+You can have many description for each term by using multiple <code4>&ltdd&gt</code4> tags and the entire list is wrapped in a <code4>&ltdl&gt</code4> tag, representing the definition list.
 
 <h4>HTML Qoutes</h4>
-The block quote element is used to distinguish the quote from the surrounding text, you can wrap the whole thing in a "<blockquote></blockquote>" element. To attribute the quote "<cite>" elememnt is used.
+The block quote element is used to distinguish the quote from the surrounding text, you can wrap the whole thing in a <code4>&ltblockquote&gt</code4> element. To attribute the quote <code4>&ltcite&gt</code4> elememnt is used.
 
-To make things easier, you can use the "<q>" element in HTML, which stands for quote and the browser will automatically provide the appropriate quote marks for you.
+To make things easier, you can use the <code4>&ltq&gt</code4> element in HTML, which stands for quote and the browser will automatically provide the appropriate quote marks for you.
 Date  and Time Inputs
-For date and time HTML uses a single element called "<time>". This element can be used to mark anything that specifies a time of day, or a duration.
-It consists of an opening tag (<time>) and a closing tag (</time>).
+For date and time HTML uses a single element called <code4>&lttime&gt</code4>. This element can be used to mark anything that specifies a time of day, or a duration.
+It consists of an opening tag <code4>&ltimee&gt</code4> and a closing tag <code4>&lttime&gt</code4>.
 For example "<time>May 8th</time>" or "<time>May 8th 2025</time>"
 The datetime attribute allows us to specify the date or time in a format that computers can understand.It is written like this: "<time datetime="2025-05-08">May 8, 2025</time>".
 
