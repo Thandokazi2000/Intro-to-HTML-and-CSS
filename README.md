@@ -41,11 +41,11 @@ You can have many description for each term by using multiple <code4>&ltdd&gt</c
 <h4>HTML Qoutes</h4>
 The block quote element is used to distinguish the quote from the surrounding text, you can wrap the whole thing in a <code4>&ltblockquote&gt</code4> element. To attribute the quote <code4>&ltcite&gt</code4> elememnt is used.
 
-To make things easier, you can use the <code4>&ltq&gt</code4> element in HTML, which stands for quote and the browser will automatically provide the appropriate quote marks for you.
+To make things easier, you can use the ``` <q> ``` element in HTML, which stands for quote and the browser will automatically provide the appropriate quote marks for you.
 Date  and Time Inputs
-For date and time HTML uses a single element called <code4>&lttime&gt</code4>. This element can be used to mark anything that specifies a time of day, or a duration.
-It consists of an opening tag  and a closing tag <code4>&lttime&gt</code4>.
-For example "<time>May 8th</time>" or "<time>May 8th 2025</time>"
+For date and time HTML uses a single element called ``` <time> ```. This element can be used to mark anything that specifies a time of day, or a duration.
+It consists of an opening tag  and a closing tag ``` <time> ```.
+For example ``` "<time>May 8th</time> ``` or ``` "<time>May 8th 2025</time>" ```
 The datetime attribute allows us to specify the date or time in a format that computers can understand.It is written like this: 
 ```
 "<time datetime="2025-05-08">May 8, 2025</time>".
@@ -70,11 +70,18 @@ We can use the HTML inspector in the developer tools to debug mistakes.
 <h4>HTML Attributes</h4>
 Class attribute is the most commonly used and it allows us to assign a reusable name to any element, which can then be styled using CSS for all elements sharing that class.
 There is also an ID attribute which is similar to class attribute, but we can only use unique names once on an entire HTML page.They are used to target CSS.They are also useful when addressing specific elements in Javascript or targeted links.
+The four most important Global Attributes: "class," "id," "lang," and "dir".
 
 ARIA roles
 ARIA Roles are like extra attribute that we can add to HTML elements to make them more meaningful and help browsers understand what they represent. 
 ARIA Roles come into play when we want to provide essential information to assistive technologies like screen readers, braille displays, and magnifiers to  ensure a website is fully accessible.
 
+<h3>Navigation and Linking</h3>
+
+HTML Links
+
+When we want to create a link, we use the A element, which stands for anchor. To do this, we need to add an href attribute with a URL enclosed in quotes. This URL is where the link will take us. The term href stands for Hypertext Reference.
+The A element is inline and can be placed within a paragraph or any other text
 
 
 
