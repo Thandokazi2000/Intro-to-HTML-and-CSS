@@ -83,6 +83,14 @@ HTML Links
 When we want to create a link, we use the A element, which stands for anchor. To do this, we need to add an href attribute with a URL enclosed in quotes. This URL is where the link will take us. The term href stands for Hypertext Reference.
 The A element is inline and can be placed within a paragraph or any other text
 
+ <h3>Graphics and images</h3>
+ image formats
+ GIF
+ SVG
+ JPG
+ PNG
+ <
+ 
 
 
 
