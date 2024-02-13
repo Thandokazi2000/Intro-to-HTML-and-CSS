@@ -84,14 +84,74 @@ When we want to create a link, we use the A element, which stands for anchor. To
 The A element is inline and can be placed within a paragraph or any other text
 
  <h3>Graphics and images</h3>
+ IMG element to define an image
+ There are four attributes that need to be included for every image.
+ 1.Source attribute(SRC), to define the URL of the image
+ 2.lternative attribute(ALT), to define an alternative text for an image, if it cannot be 
+ displayed.
+ 3.Width and height attribute, which determine the size of the image.
+ 
  image formats
  GIF
- SVG
+ SVG-perfect for logos,icons and other types of illustrations.
  JPG
  PNG
- <
- 
 
+ Figcaption defines a caption for a figure element
+ Figure element to mark up a photo in a document
+
+ <h3>Working With Media</h3>
+ 
+ Audio element is used to play an audio file on a web page
+ The controls attribute adds audio controls like play, pause, and volume.
+ The source element allows you to specify alternative audio files which the browser may choose 
+ from
+ Video element is used to show a video on a web page.
+ 
+ Embedding Media via Iframes
+ Embedding refers to taking content from one site and placing it within the middle of another 
+ sites page.E.g Google Maps, code demo or videos from youtube.
+
+ <h3>Content Identification</h3>
+ 
+HTML Generic Elements, Div and Span
+
+A block-level element always starts on a new line and takes up the full width available
+An inline element does not start on a new line and it only takes up as much width as necessary
+The div element is a block-level and is often used as a container for other HTML elements
+The span element is an inline container used to mark up a part of a text, or a part of a document
+
+<h3>HTML integration</h3>
+The HTML head serves as a central hub for connecting and setting up various components, ensuring that all assets are loaded and sharing page information with other sites and platforms. In a way, it is like the headquarters for getting the page off to a good start.
+
+<h3>Forms Fundamentals</h3>\
+An HTML form is used to collect user input. The user input is most often sent to a server for processing.
+The form element is a container for different types of input elements, such as:Text, fields, checkboxes, radio buttons, submit buttons, etc.
+1.The HTML form element is used to create an HTML form for user input
+2.The HTML input element is the most used form element.
+3.The input type="text" defines a single-line input field for text input.
+4.The label tag defines a label for many form element
+5.The for attribute of the label tag should be equal to the id attribute of the input element to bind them together.
+5. The input type= "submit" defines a button for submitting the form data to a form-handler
+
+<h3>Organizing Tabular Information</h3>
+HTML tables allow web developers to arrange data into rows and columns.
+table element define a table
+tr stands for table row
+td stands for table data
+th stands for table header
+
+#Cascading Style Sheets
+CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes
+
+CSS components
+Selector
+property
+value
+Declaration includes a CSS property name and value
+
+Grouping selectors
+We can combine them using a comma: p,li{property name and value}
 
 
 
