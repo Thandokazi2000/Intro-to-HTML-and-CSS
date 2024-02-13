@@ -124,7 +124,7 @@ The span element is an inline container used to mark up a part of a text, or a p
 <h3>HTML integration</h3>
 The HTML head serves as a central hub for connecting and setting up various components, ensuring that all assets are loaded and sharing page information with other sites and platforms. In a way, it is like the headquarters for getting the page off to a good start.
 
-<h3>Forms Fundamentals</h3>\
+<h3>Forms Fundamentals</h3>
 An HTML form is used to collect user input. The user input is most often sent to a server for processing.
 The form element is a container for different types of input elements, such as:Text, fields, checkboxes, radio buttons, submit buttons, etc.
 1.The HTML form element is used to create an HTML form for user input
@@ -141,7 +141,7 @@ tr stands for table row
 td stands for table data
 th stands for table header
 
-#Cascading Style Sheets
+# Cascading Style Sheets
 CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes
 
 CSS components
