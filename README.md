@@ -104,12 +104,16 @@ The A element is inline and can be placed within a paragraph or any other text
  
  Audio element is used to play an audio file on a web page
  The controls attribute adds audio controls like play, pause, and volume.
- The source element allows you to specify alternative audio files which the browser may choose 
- from
- Video element is used to show a video on a web page.
+ The source element allows you to specify alternative audio files which the browser may 
+ choose from
+ Video element is used to show a video on a web page
+ video	Defines a video or movie
+ source	Defines multiple media resources for media elements, such as video and audio
+ track	Defines text tracks in media play
  
  Embedding Media via Iframes
- Embedding refers to taking content from one site and placing it within the middle of another 
+ Embedding refers to taking content from one site and placing it within the middle of 
+ another 
  sites page.E.g Google Maps, code demo or videos from youtube.
 
  <h3>Content Identification</h3>
