@@ -146,9 +146,14 @@ td stands for table data
 th stands for table header
 
 # Cascading Style Sheets
-CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes
- CSS Syntax 
- A CSS rule consists of a selector and a declaration block.
+What is CSS?
+CSS stands for Cascading Style Sheets
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+CSS saves a lot of work. It can control the layout of multiple web pages all at once
+External stylesheets are stored in CSS files
+
+Why Use CSS?
+CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.
 
 CSS components
 Selector
@@ -157,7 +162,20 @@ value
 Declaration includes a CSS property name and value
 CSS Selectors
 CSS selectors are used to "find" (or select) the HTML elements you want to style.
+A CSS rule consists of a selector and a declaration block.
 
+E.G. Paragraph element
+p is a selector in CSS (it points to the HTML element you want to style: <p>).
+color is a property, and red is the property value
+text-align is a property, and center is the property value
+
+
+CSS selector
+
+A CSS selector selects the HTML element(s) you want to style.
+The declaration block contains one or more declarations separated by semicolons.
+Each declaration includes a CSS property name and a value, separated by a colon.
+Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.
 We can divide CSS selectors into five categories:
 
 Simple selectors - select elements based on name, id, class
@@ -166,9 +184,29 @@ Pseudo-class selectors - select elements based on a certain state
 Pseudo-elements selectors - select and style a part of an element
 Attribute selectors - select elements based on an attribute or attribute value
 
+The CSS element Selector
+The element selector selects HTML elements based on the element name.
 
-Grouping selectors
+The CSS id Selector
+The id selector uses the id attribute of an HTML element to select a specific element.
+The id of an element is unique within a page, so the id selector is used to select one unique element!
+To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+
+The CSS class Selector
+The class selector selects HTML elements with a specific class attribute.
+To select elements with a specific class, write a period (.) character, followed by the class name.
+
+The CSS Universal Selector
+The universal selector (*) selects all HTML elements on the page.
+
+The CSS Grouping Selector
+The grouping selector selects all the HTML elements with the same style definitions.
 We can combine them using a comma: p,li{property name and value}
+It will be better to group the selectors, to minimize the code.
+To group selectors, separate each selector with a comma.
+
+CSS Margins
+Margins are used to create space around elements, outside of any defined borders.
 
 
 
