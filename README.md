@@ -273,6 +273,22 @@ JavaScript Comments
 Not all JavaScript statements are "executed".
 Code after double slashes // or between /* and */ is treated as a comment.
 
+Week 4- Day 1
+JavaScript Loops
+Loops are handy, if you want to run the same code over and over again, each time with a different value.
 
+The For Loop
+The for statement creates a loop with 3 optional expressions
+Expression 1 is executed (one time) before the execution of the code block.
+Expression 2 defines the condition for executing the code block.
+Expression 3 is executed (every time) after the code block has been executed.
+
+The For In Loop
+The JavaScript for in statement loops through the properties of an Object
+Example Explained
+The for in loop iterates over a person object
+Each iteration returns a key (x)
+The key is used to access the value of the key
+The value of the key is person[x]
 
 
