@@ -291,4 +291,81 @@ Each iteration returns a key (x)
 The key is used to access the value of the key
 The value of the key is person[x]
 
+# Node.js
+
+Node.js is an open source server environment.
+Node.js allows you to run JavaScript on the server.
+Node.js uses asynchronous programming!
+
+Here is how Node.js handles a file request:
+
+1.Sends the task to the computer's file system.
+2.Ready to handle the next request.
+3.When the file system has opened and read the file, the server returns the content to the client.
+Node.js eliminates the waiting, and simply continues with the next request.
+Node.js runs single-threaded, non-blocking, asynchronous programming, which is very memory efficient.
+
+What Can Node.js Do?
+Node.js can generate dynamic page content
+Node.js can create, open, read, write, delete, and close files on the server
+Node.js can collect form data
+Node.js can add, delete, modify data in your database
+
+What is a Node.js File?
+Node.js files contain tasks that will be executed on certain events
+A typical event is someone trying to access a port on the server
+Node.js files must be initiated on the server before having any effect
+Node.js files have extension ".js"
+
+What is a Module in Node.js?
+Consider modules to be the same as JavaScript libraries.
+A set of functions you want to include in your application.
+
+Node.js as a File Server
+The Node.js file system module allows you to work with the file system on your computer.
+To include the File System module, use the require() method: var fs = require('fs');
+
+Common use for the File System module:
+
+Read files
+Create files
+Update files
+Delete files
+Rename files
+
+Read Files
+The fs.readFile() method is used to read files on your computer.
+Assume we have the following HTML file (located in the same folder as Node.js):
+
+Create Files
+The File System module has methods for creating new files:
+fs.appendFile()
+fs.open()
+fs.writeFile()
+The fs.appendFile() method appends specified content to a file.
+
+
+Update Files
+The File System module has methods for updating files:
+fs.appendFile()
+fs.writeFile()
+The fs.appendFile() method appends the specified content at the end of the specified file
+
+Delete Files
+To delete a file with the File System module,  use the fs.unlink() method.
+The fs.unlink() method deletes the specified file
+
+Rename Files
+To rename a file with the File System module,  use the fs.rename() method.
+The fs.rename() method renames the specified file
+
+What is NPM?
+NPM is a package manager for Node.js packages, or modules if you like.
+www.npmjs.com hosts thousands of free packages to download and use.
+The NPM program is installed on your computer when you install Node.js
+
+What is a Package?
+A package in Node.js contains all the files you need for a module.
+Modules are JavaScript libraries you can include in your project.
+
 
