@@ -368,4 +368,112 @@ What is a Package?
 A package in Node.js contains all the files you need for a module.
 Modules are JavaScript libraries you can include in your project.
 
+# Introduction to React
 
+# Introduction to Python
+
+Python is a popular programming language.
+Python can be used on a server to create web applications.
+
+It is used for:
+web development (server-side),
+software development,
+mathematics,
+system scripting.
+
+What can Python do?
+Python can be used on a server to create web applications.
+Python can be used alongside software to create workflows.
+Python can connect to database systems. It can also read and modify files.
+Python can be used to handle big data and perform complex mathematics.
+Python can be used for rapid prototyping, or for production-ready software development.
+
+Why Python?
+Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).
+Python has a simple syntax similar to the English language.
+Python has syntax that allows developers to write programs with fewer lines than some other programming languages.
+Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.
+Python can be treated in a procedural way, an object-oriented way or a functional way.
+
+Python Syntax compared to other programming languages
+Python was designed for readability, and has some similarities to the English language with influence from mathematics.
+Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.
+Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.
+
+Python comments
+Comments can be used to explain Python code.
+Comments can be used to prevent execution when testing code.
+
+Creating a Comment
+Comments starts with a #, and Python will ignore them
+Comments can be placed at the end of a line, and Python will ignore the rest of the line
+A comment does not have to be text that explains the code, it can also be used to prevent Python from executing code
+Multiline Comments
+Python does not really have a syntax for multiline comments.
+To add a multiline comment you could insert a # for each line
+Or, not quite as intended, you can use a multiline string.
+Since Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code, and place your comment inside it
+"""
+This is a comment
+written in
+more than just one line
+"""
+
+Variables and Types
+
+The basic unit of a program is called a variable, which is assigned a value.
+Variables are containers for storing data values
+An equal sign is used as an assignment operator. 
+If a variable name begins with a number, it cannot be used, but a variable name can include upper and lower case letters, as well as underscores. 
+Variable names traditionally begin with lowercase letters in Python. 
+
+There are several types of variables in Python, including integers, which are whole numbers; 
+Floats, which are decimal numbers; 
+Complex numbers, which are used for complex mathematical calculations; 
+and Strings, which are collections of characters. 
+Booleans, which are true or false values, are another type of variable in Python. 
+When working with strings, the plus sign is used to concatenate them, but it cannot be used to add strings and numbers. 
+Error messages can provide useful information when working with Python.
+
+Get the Type
+You can get the data type of a variable with the type() function.
+x = 5
+y = "John"
+print(type(x))
+print(type(y))
+Casting
+If you want to specify the data type of a variable, this can be done with casting.
+Case-Sensitive
+Variable names are case-sensitive.
+a = 4
+A = "Sally"
+#A will not overwrite a
+
+Variable Names
+A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python variables:
+A variable name must start with a letter or the underscore character
+A variable name cannot start with a number
+A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+Variable names are case-sensitive (age, Age and AGE are three different variables)
+A variable name cannot be any of the Python keywords.
+
+Output Variables
+The Python print() function is often used to output variables.
+
+Global Variables
+Variables that are created outside of a function (as in all of the examples above) are known as global variables.
+Global variables can be used by everyone, both inside of functions and outside.
+
+Data Structres
+
+Data structures allow for the storage of a list of values in a single variable. 
+The first data structure we learn about is a list, which can contain any data type, including a list within a list. 
+The length of a list can be determined using the length function. 
+A set is similar to a list, except it only contains unique elements and is declared using curly braces. 
+
+Operators
+
+Operators are instructions that perform operations on variables and values in Python.
+They are used to manipulate and perform actions on data. 
+The most familiar type of operator is the arithmetic operator, which is used for mathematical calculations. 
+Addition is one example of an arithmetic operator, where adding one and one gives you the result of two.
