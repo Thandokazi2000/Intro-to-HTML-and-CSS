@@ -477,3 +477,50 @@ Operators are instructions that perform operations on variables and values in Py
 They are used to manipulate and perform actions on data. 
 The most familiar type of operator is the arithmetic operator, which is used for mathematical calculations. 
 Addition is one example of an arithmetic operator, where adding one and one gives you the result of two.
+
+Python function
+
+A function is a block of code which only runs when it is called.
+You can pass data, known as parameters, into a function.
+A function can return data as a result.
+In Python a function is defined using the def keyword
+
+Calling a Function
+To call a function, use the function name followed by parenthesis
+
+Arguments
+Information can be passed into functions as arguments.
+Arguments are specified after the function name, inside the parentheses. You can add as many arguments as you want, just separate them with a comma.
+
+Arbitrary Arguments, *args
+If you do not know how many arguments that will be passed into your function, add a * before the parameter name in the function definition.
+This way the function will receive a tuple of arguments, and can access the items accordingly
+
+The phrase Keyword Arguments are often shortened to kwargs in Python documentations.
+
+Arbitrary Keyword Arguments, **kwargs
+If you do not know how many keyword arguments that will be passed into your function, add two asterisk: ** before the parameter name in the function definition.
+This way the function will receive a dictionary of arguments, and can access the items accordingly
+
+Python Lambda
+A lambda function is a small anonymous function.
+A lambda function can take any number of arguments, but can only have one expression.
+Use lambda functions when an anonymous function is required for a short period of time.
+
+Arrays
+Arrays are used to store multiple values in one single variable
+
+Access the Elements of an Array
+You refer to an array element by referring to the index number.
+
+The Length of an Array
+Use the len() method to return the length of an array (the number of elements in an array).
+
+Python Classes/Objects
+Python is an object oriented programming language.
+Almost everything in Python is an object, with its properties and methods.
+A Class is like an object constructor, or a "blueprint" for creating objects.
+
+Create a Class
+To create a class, use the keyword class
+
